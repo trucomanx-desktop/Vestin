@@ -1,2 +1,4 @@
 /src/vestin/__pycache__/
 /src/vestin/modules/__pycache__/
+/src/dist/
+/src/vestin.egg-info/
