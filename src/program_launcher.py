@@ -25,6 +25,14 @@ python -m PyInstaller --onefile --windowed --name vestin --add-data "vestin/icon
 
 '''
 
+import os
+from PyQt5.QtCore import QLibraryInfo
+
+os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = QLibraryInfo.location(
+    QLibraryInfo.PluginsPath
+)
+
+
 from vestin.program import main
 
 if __name__ == "__main__":

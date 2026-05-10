@@ -136,24 +136,27 @@ class MainWindow(QMainWindow):
         self.toolbar_spacer.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
         self.toolbar.addWidget(self.toolbar_spacer)
 
+        configure_path = resource_path("icons", "text-configure.png")
         self.configure_action = QAction(
-            QIcon.fromTheme("document-properties"),
+            QIcon(configure_path),
             CONFIG["toolbar_configure"], self
         )
         self.configure_action.setToolTip(CONFIG["toolbar_configure_tooltip"])
         self.configure_action.triggered.connect(self.open_configure_editor)
         self.toolbar.addAction(self.configure_action)
 
+        about_path = resource_path("icons", "status_help.png")
         self.about_action = QAction(
-            QIcon.fromTheme("help-about"),
+            QIcon(about_path),
             CONFIG["toolbar_about"], self
         )
         self.about_action.setToolTip(CONFIG["toolbar_about_tooltip"])
         self.about_action.triggered.connect(self.open_about)
         self.toolbar.addAction(self.about_action)
 
+        coffee_path = resource_path("icons", "emote-love.png")
         self.coffee_action = QAction(
-            QIcon.fromTheme("emblem-favorite"),
+            QIcon(coffee_path),
             CONFIG["toolbar_coffee"], self
         )
         self.coffee_action.setToolTip(CONFIG["toolbar_coffee_tooltip"])

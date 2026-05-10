@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vestin"
-version = "0.1.0"
+version = "0.1.1"
 description = "Program to calculate compound interest"
 readme = "README.md"
 authors = [{name = "Fernando Pujaico Rivera", email = "fernando.pujaico.rivera@gmail.com"}]
@@ -34,4 +34,4 @@ dependencies = [
 packages = ["vestin", "vestin.modules"]
 
 [tool.setuptools.package-data]
-"vestin" = ["icons/logo.png"]
+"vestin" = ["icons/*.png"]
