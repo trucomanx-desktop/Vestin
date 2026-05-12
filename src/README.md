@@ -2,7 +2,7 @@
 
 Program to calculate compound interest
 
-![logo](https://raw.githubusercontent.com/trucomanx/Vestin/main/screenshot.png)
+![logo](https://raw.githubusercontent.com/trucomanx-desktop/Vestin/main/screenshot.png)
 
 ## 1. Installing
 
@@ -24,7 +24,7 @@ vestin
 ```
 ## 2. More information
 
-If you want more information go to [doc](https://github.com/trucomanx/Vestin/blob/main/doc) directory.
+If you want more information go to [doc](https://github.com/trucomanx-desktop/Vestin/blob/main/doc) directory.
 
 ## 3. Buy me a coffee
 

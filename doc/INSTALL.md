@@ -21,7 +21,7 @@ vestin
 Installing `vestin` program
 
 ```bash
-git clone https://github.com/trucomanx/Vestin.git
+git clone https://github.com/trucomanx-desktop/Vestin.git
 cd Vestin
 pip install -r requirements.txt
 cd src
